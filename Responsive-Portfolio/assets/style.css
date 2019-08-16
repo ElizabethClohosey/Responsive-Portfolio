@@ -14,15 +14,7 @@ nav {
     margin-top: 25px;
     margin-right: 60px;
 }
-                         /* nav media query */
-/* @media screen and (max-width:640px) {
-    nav {
-    margin-top: 0px;
-    margin-right: 250px;
-    }
-} */
 
-/* Targets list items within nav */
 nav li {
     font-size: 15px;
     font-weight: bolder;
@@ -33,13 +25,6 @@ nav li {
     float: right;
     list-style-type: none;
 }
-                         /* ul media query */
-/* @media screen and (max-width:640px) {
-    ul {
-        margin-right: 43%;
-    }
-} */
-
 
 a {
     text-decoration: none;
@@ -74,14 +59,6 @@ p::first-line {
     border-top: 1px solid rgb(162, 62, 245); 
 }
 
-                    /* media query for content-background  */
-/* @media screen and (max-width:640px) {
-    .content-background {
-      width: 50%; 
-      padding: 10px 10px 50px 10px; 
-    }
-} */
-
 h1 {
     position: absolute;
     left: 80px;
@@ -92,16 +69,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
 }
-                        /* h1 - my name media query */
-/* @media screen and (max-width: 640px) {
-    h1 {
-        position: absolute;
-        bottom: -40px;
-        left: -90px;
-        width: 100%;
-    }
-} */
-
+ 
 h2 {
     color: rgb(162, 62, 245);
     border-bottom: 1px solid rgb(162, 62, 245);
@@ -116,15 +84,6 @@ h2 {
     padding-bottom: 10px;
 }
 
-                    /* about-me-pic media query */
-/* @media screen and (max-width:640px) {
-    #about-me-pic {
-    float: none;
-    height: 300px;
-    width: 400px;
-    }
-} */
-
 .#about-me-pic:hover {
     opacity: 0.3;
 }
@@ -136,12 +95,7 @@ h2 {
     width: 660px;
     font-size: 15px;
 }
-                  /* media query for .content  */
-/* @media screen and (max-width:640px) {
-    .content {
-        width: 100%;
-    } */
-}
+ 
 
 footer {
     position: absolute;
@@ -154,6 +108,41 @@ footer {
     text-align: center;
     font-size: .5em;
     color: rgb(162, 62, 245);
+}
+
+/* media query for 640px */
+
+@media screen and (max-width:640px) {
+    nav {
+    margin-top: 0px;
+    margin-right: 250px;
+    }
+
+    ul {
+        margin-right: 43%;
+    }
+
+    .content-background {
+      width: 50%; 
+      padding: 10px 10px 50px 10px; 
+    }
+
+    h1 {
+        position: absolute;
+        bottom: -40px;
+        left: -90px;
+        width: 100%;
+    }
+
+    #about-me-pic {
+    float: none;
+    height: 300px;
+    width: 400px;
+    }
+
+    .content {
+        width: 100%;
+    }
 }
 
 

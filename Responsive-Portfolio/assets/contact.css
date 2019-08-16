@@ -22,7 +22,6 @@ nav {
     margin-right: 60px;
 }
 
-/* Targets list items within nav */
 nav li {
     font-size: 15px;
     font-weight: bolder;
@@ -34,7 +33,7 @@ nav li {
     list-style-type: none;
 }
 
-/* removes underline from links */
+                
 a {
     text-decoration: none;
 }
@@ -123,5 +122,63 @@ footer {
 }
 
 
+/* media for 980px */
+        
+
+@media screen and (max-width:980px) {
+    ul {
+        margin-right: 33%;
+    }
+
+    .content-background {
+        width: 60%; 
+        padding: 10px 10px 50px 10px; 
+    }
+
+    h1 {
+        position: absolute;
+        margin-left: -50px;
+        top: 25px;
+    }
+
+    footer {
+        position: fixed;
+    }
+}
+
+/* media for 768px */
+
+/* @media screen and (min-width:640px) and (max-width:768px) {
+
+    h1 {
+        color: black;
+    }
+} */
+
+
+/* media for 640px */
+
+
+@media screen and (max-width:640px) {
+    ul {
+        margin-right: 56%;
+    }
+
+    .content-background {
+        width: 50%; 
+        padding: 10px 10px 50px 10px; 
+    }
+
+    h1 {
+        position: absolute;
+        top: -50px;
+        left: -140px;
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
 
 
