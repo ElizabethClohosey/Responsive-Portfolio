@@ -104,48 +104,97 @@ footer {
     left: 0;
     background: whitesmoke;
     padding-top: 35px;
-    border-top: 5px solid rgb(162, 62, 245);;
+    border-top: 5px solid rgb(162, 62, 245);
     text-align: center;
     font-size: .5em;
     color: rgb(162, 62, 245);
 }
 
-/* media query for 640px */
+/* media query for 980px */
 
-@media screen and (max-width:640px) {
-    nav {
-    margin-top: 0px;
-    margin-right: 250px;
-    }
-
+@media screen and (max-width:980px) {
     ul {
-        margin-right: 43%;
+        margin-right: -5%;
     }
 
     .content-background {
-      width: 50%; 
+        width: 100%; 
+        padding: 2% 0% 5% 5%;
+    }
+
+    .content {
+        left: 15px;
+        width: 60%;
+        margin: auto 0%;
+        margin-top: 2%;
+    }
+
+    h1 {
+        position: absolute;
+        margin-left: -50px;
+        top: 1px;
+    }
+
+    footer {
+        position: fixed;
+    }
+}
+
+
+/* media query for 768 */
+@media screen and (max-width:768px) {
+
+    .content-background {
+        width: 75%;
+        padding: 1% 1% 20% 1%;
+    }
+
+    .content {
+        width: 95%;
+        margin-top: 5%;
+    }
+
+    ul {
+        margin-right: 19%;
+    }
+
+    h1 {
+        position: absolute;
+        left: 7%;
+    }
+
+}
+
+
+
+
+/* media query for 640px */
+
+@media screen and (max-width:640px) {
+
+    ul {
+        margin-right: 51%;
+    }
+
+    .content-background {
+      width: 62%; 
       padding: 10px 10px 50px 10px; 
     }
 
     h1 {
         position: absolute;
-        bottom: -40px;
-        left: -90px;
+        top: -69px;
+        left: -12%;
         width: 100%;
     }
 
     #about-me-pic {
     float: none;
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
     }
 
     .content {
         width: 100%;
     }
 }
-
-
-
-
-
