@@ -52,4 +52,27 @@
     opacity: 0.1;
 }
 
+/* media query for 640px */
+@media screen and (max-width:640px) {
+    ul {
+        margin-right: 54%;
+    }
+
+    .content-background {
+        margin-left: -1%;
+    }
+
+    h1 {
+        position: absolute;
+        top: -69px;
+        left: -15%;
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
+}
+
 
