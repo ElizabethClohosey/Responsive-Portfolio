@@ -148,12 +148,12 @@ footer {
 
 /* media for 768px */
 
-/* @media screen and (min-width:640px) and (max-width:768px) {
+@media (max-width:768px) {
 
     h1 {
         color: black;
     }
-} */
+}
 
 
 /* media for 640px */
@@ -161,18 +161,18 @@ footer {
 
 @media screen and (max-width:640px) {
     ul {
-        margin-right: 56%;
+        margin-right: 53%;
     }
 
     .content-background {
-        width: 50%; 
+        width: 60%; 
         padding: 10px 10px 50px 10px; 
     }
 
     h1 {
         position: absolute;
         top: -50px;
-        left: -140px;
+        left: -120px;
         width: 100%;
     }
 
